@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Health Index</title>
+    <script src="https://unpkg.com/rosaenlg@3.0.1/dist/rollup/rosaenlg_tiny_en_US_3.0.1_comp.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' />
+    <link href='css/global.css' rel='stylesheet' />
+    <link href="./css/style-chosen.css" rel="stylesheet" />
+    <link href='https://onsvisual.github.io/pattern-library/dist/fontawesome/css/all.css' rel='stylesheet' />
+
+    <style>
+
+      body {
+        margin:0;
+        padding:0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px !important;
+        max-width:950px;
+        margin: 0px auto;
+        display: block;
+        color: #323132 !important;
+      }
+      div.container {
+        width: 640px;;
+        margin: auto;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 0 0 24px 0;
+        padding: 0;
+      }
+      div#pcSearch {
+          background: #20609540;
+          width: 100%;
+          padding: 18px;
+      }
+      p#searchLabel {
+          font-size: x-large !important;
+          color: #206095;
+          font-weight: bold;
+      }
+      p#subhead {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 30px;
+        margin: 32px 0 32px 0;
+        padding: 24px 0 0 0;
+        font-weight: bold;
+        line-height: 40px;
+      }
+      h3 {
+        font-size: 24px;
+        margin: 32px 0 16px 0;
+        padding: 24px 0 0 0;
+        font-weight: bold;
+        line-height: 32px;
+      }
+      h4 {
+        font-size: 18px;
+        margin: 24px 0 16px 0;
+        padding: 24px 0 0 0;
+        font-weight: bold;
+        line-height: 32px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 0 0 24px 0;
+        padding: 0;
+      }
+      div#co-box {
+        display: grid !important;
+        grid-template-columns: auto auto;
+        gap: 3%;
+        background: #1F6095;
+        background-color: #206095 !important;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      div#callout-text > p {
+        color: white;
+        margin: 0px 0px 0px 0px;
+      }
+      div#callout-bigno3d {
+        position: absolute;
+        width: 120px;
+        border-right: 1px solid white;
+        position: relative;
+      }
+      div#callout-bigno3d > p {
+        color: white;
+        font-size: xxx-large;
+        font-weight: bold;
+        margin-top: 30%;
+      }
+      div#callout-bigno4d {
+        position: absolute;
+        width: 150px;
+        border-right: 1px solid white;
+        position: relative;
+      }
+      div#callout-bigno4d > p {
+        color: white;
+        font-size: xxx-large;
+        font-weight: bold;
+        margin-top: 30%;
+      }
+      .dropdown {
+  height: 44px;
+  border-style: solid;
+  color: #206095;
+  background-color: #FFF;
+  font-size: 1.1em;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  padding-left: 6px;
+  margin-bottom: 20px;
+  border: 2px solid #206095;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.dropdown:focus-within{
+  box-shadow: 0 0 0px 3pt orange;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="pcSearch">
+        <p id="searchLabel" style="font-size: medium; color: #206095;">Explore data in your area</p>
+        <div id="dropdown"></div>
+      </div>
+
+      <span id="myText"></span>
+    </div>
+    <script src="https://cdn.ons.gov.uk/vendor/d3/4.2.7/d3.min.js"></script>
+    <script src="./js/modernizr.min.js"></script>
+    <script src="./js/d3-queue.min.js"></script>
+    <script src="https://cdn.ons.gov.uk/vendor/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/chosen.jquery.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+    </script>
+  </body>
+
+</html>
